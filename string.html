@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+ 
+   var str=prompt("Enter Paragraph =");
+    //Total Charcter
+    var char=+(str.length);
+    document.write("No of Char=" + char + "<br>");
+    
+    //white space
+    var w=str.split(" ");
+    document.write("No of Words=" + w.length + "<br>");
+    
+   // Space
+    var sp=+(w.length)-1;
+     document.write("No of Space=" + sp + "<br>");
+    
+    // total char without space
+    
+    var cws=char-sp;
+     document.write("No of Total Char Without Space=" + cws + "<br>");
+    
+   
+    
+</script>
+    
+    </body>
+</html>
